@@ -1,2 +1,2 @@
 # Yava
-an process manager for android 
+a process manager for android 
