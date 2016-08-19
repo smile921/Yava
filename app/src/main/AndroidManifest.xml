@@ -27,16 +27,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.yava921.frere.yava.ProcessListActivity" />
         </activity>
-        <activity
-            android:name=".WelcomeActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_welcome"
-            android:theme="@style/FullscreenTheme" />
-        <activity
-            android:name=".GuideActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_activityuide"
-            android:theme="@style/FullscreenTheme"></activity>
     </application>
 
 </manifest>
