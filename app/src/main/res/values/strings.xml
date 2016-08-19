@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Yava</string>
     <string name="title_process_detail">Process Detail</string>
+
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_activityuide">Activityuide</string>
 </resources>
