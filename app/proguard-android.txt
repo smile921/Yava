@@ -1,0 +1,12 @@
+ #工程中含有第三方jar包
+ -libraryjars libs/android-support-.jar
+ -libraryjars libs/jackson.*.jar
+ -libraryjars libs/okhttp.*.jar
+
+ #项目里面包含的包也不能混淆
+ -keep class vi.com.gdi.bgl.android.java.** {*;}
+ -dontwarn vi.com.gdi.bgl.android.java.**
+ -keep class android.** {*;}
+ -keep class android.support.v4.** { *; }
+ -keep public class * extends android.support.v4.**
+ -keep public class * extends android.app.Fragment
